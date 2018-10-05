@@ -1,0 +1,124 @@
+body {
+    margin-top: 5em;
+    height: 100%;
+    
+    
+}
+h1, h2, h3, h4 {
+    font-family: Poppins;
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+}
+
+.navbar-default {
+    background-color: #ffff;
+    border:0;
+    font-family: Poppins;
+    padding: 2rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+    color: black !important;
+}
+ #showcase  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#showcase h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    
+}
+
+#showcase img {
+    width: 80%;
+    margin : 0 auto;
+    display: block;
+    
+}
+
+#showcase .btn {
+    overflow: hidden;
+    color: #4e5356;
+    font-size: auto;
+   
+}
+
+#showcase .showcase-right {
+
+    margin-top : 3rem;
+}
+.showcase-right > section {
+    display: grid;
+    grid-template-columns: 30%  30%;
+    grid-gap: 1rem;
+    
+}
+
+
+
+
+.pig1{
+    
+    min-height: 50em;
+   
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 60% 40%;
+    
+}
+
+.pig1 img {
+    width: 70%;
+    
+}
+
+pig1 li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 8em;
+}
+
+.pig1 div {
+    padding: 0;
+    margin: 0;
+    color : black;
+
+}
+.pig1  p {
+    
+    font-size: 3em;
+    color: #666;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pig2{
+    background: url('../img/Tussle_of_words.jpg');
+    min-height: 70em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.pig3{
+    background: url('../img/Mr_Xpressions.jpg');
+    min-height: 50em;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.sectionparallax {
+    min-height: 20em;
+    background-color: #f1f1f1;
+    color: rgb(202, 178, 127);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    padding: 20rem;
+}
