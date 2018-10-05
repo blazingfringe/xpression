@@ -6,7 +6,7 @@
   "scripts": {
     "deploy": "gh-pages -d scrollEffect"
   },
-  "homepage": "http://pratik521992.guthub.io/xpression2018",
+  "homepage": "http://pratik521992.guthub.io/xpression",
   "author": "",
   "license": "ISC",
   "dependencies": {
