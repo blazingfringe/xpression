@@ -1,36 +1,55 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     margin-top: 5em;
-    height: 100%;
     
     
 }
+
+hr {
+    min-height: 0.4em;
+    background-color: rgb(242, 242, 242);
+    opacity: 0.6;
+}
+
 h1, h2, h3, h4 {
     font-family: Poppins;
 }
 
 li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 .navbar-default {
+    
     background-color: #ffff;
     border:0;
     font-family: Poppins;
     padding: 2rem;
 }
 .navbar-brand {
-    font-size: 2rem;
+    font-size: 2em;
     color: black !important;
+    
 }
  #showcase  {
+   
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: white;
+    width: 100%;
+    height: 100%;
 }
 
 #showcase h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 900;
+    font-family: Poppins;
     
 }
 
@@ -45,6 +64,8 @@ li {
     overflow: hidden;
     color: #4e5356;
     font-size: auto;
+    padding: 1rem 2rem;
+    text-decoration: none;
    
 }
 
@@ -61,14 +82,15 @@ li {
 
 
 
-
 .pig1{
-    
-    min-height: 50em;
    
+    min-height: 50em;
+    background-color: white;
+    width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 60% 40%;
+    grid-template-rows: 40% 60%;
     
 }
 
@@ -77,15 +99,21 @@ li {
     
 }
 
+.pig1 h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+}
+
 pig1 li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 8em;
 }
 
 .pig1 div {
-    padding: 0;
+    padding: 2en;
     margin: 0;
     color : black;
+    display: inline-block;
 
 }
 .pig1  p {
@@ -103,10 +131,42 @@ pig1 li {
     background-size: cover;
     position: relative;
     background-attachment: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    
 }
 .pig3{
     background: url('../img/Mr_Xpressions.jpg');
-    min-height: 50em;
+    min-height: 30em;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    position: relative;
+    background-attachment: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.pig4{
+    background: url('../img/tre_detective.jpg');
+    min-height: 30em;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    position: relative;
+    background-attachment: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.piggame {
+   
+    min-height: 40em;
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -115,10 +175,81 @@ pig1 li {
 }
 
 .sectionparallax {
-    min-height: 20em;
+    min-height: 5em;
     background-color: #f1f1f1;
-    color: rgb(202, 178, 127);
+    color: brown;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 23px;
     padding: 20rem;
+    align-content: center;
+    
+}
+.section3 {
+    height: 15em;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding: 5em;
+    color: brown;
+    
+    
+    
+}
+.section4 {
+    height: 30em;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding: 10rem;
+    color: brown;
+  
+    
+}
+
+
+video {
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+.video-container {
+    height: 30em;
+    overflow: hidden;
+}
+
+ .video-parallax {
+    -webkit-transition-position: fixed;
+    position: fixed;
+}
+
+.pigheader {
+    color: #f1f1f1;
+    text-align: center;
+    position: static;
+    margin-top: -28rem;
+    padding-bottom: 14rem;
+    height: 30em;
+
+}
+
+.pigheader h1{
+    font-size: 5em;
+   
+    
+}
+
+.pigheader p {
+    font-size: 1.5rem;
+    
+    
+    
 }
