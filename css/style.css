@@ -180,7 +180,7 @@ pig1 li {
     color: brown;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 23px;
-    padding: 20rem;
+    padding: 10rem;
     align-content: center;
     
 }
@@ -252,4 +252,22 @@ video {
     
     
     
+}
+.gamecontents {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    height: 10em;
+    text-align: center;
+}
+.gamecontents h1{
+    padding-bottom: 3rem;
+    text-align: center;
+    margin: auto;
+}
+.gamecontents > div {
+    min-width: 1em;
+    min-height: 6em;
+    background-color: brown;
 }
