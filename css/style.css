@@ -276,7 +276,7 @@ video {
     position: relative;
 }
 .fifa {
-    background: url('./img/Jaquette_FIFA16_France_XboxOne.jpg');
+    background: url('../img/Jaquette_FIFA16_France_XboxOne.jpg');
    
     background-repeat: no-repeat;
     background-position: center;
