@@ -269,7 +269,7 @@ video {
 .gamecontents > div {
     min-width: 1em;
     min-height: 6em;
-    
+    opacity: 0.6;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -285,7 +285,7 @@ video {
 }
 
 .cs {
-    background: url('./img/download-1.jpg');
+    background: url('../img/download-1.jpg');
    
     background-repeat: no-repeat;
     background-position: center;
@@ -293,7 +293,7 @@ video {
     position: relative;
 }
 .nfs {
-    background: url('./img/71rlumUCbaL._AC_SL1000_.jpg');
+    background: url('../img/71rlumUCbaL._AC_SL1000_.jpg');
    
     background-repeat: no-repeat;
     background-position: center;
