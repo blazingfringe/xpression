@@ -257,11 +257,11 @@ video {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2rem;
+    grid-gap: 0.4rem;
     height: 10em;
     text-align: center;
 }
-.gamecontents h1{
+.game-header h1{
     padding-bottom: 3rem;
     text-align: center;
     margin: auto;
@@ -269,5 +269,35 @@ video {
 .gamecontents > div {
     min-width: 1em;
     min-height: 6em;
-    background-color: brown;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
 }
+.fifa {
+    background: url('./img/Jaquette_FIFA16_France_XboxOne.jpg');
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+
+.cs {
+    background: url('./img/download-1.jpg');
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+.nfs {
+    background: url('./img/71rlumUCbaL._AC_SL1000_.jpg');
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+
