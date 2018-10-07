@@ -183,6 +183,7 @@ pig1 li {
     padding: 10rem;
     align-content: center;
     
+    
 }
 .section3 {
     height: 15em;
@@ -269,7 +270,7 @@ video {
 .gamecontents > div {
     min-width: 1em;
     min-height: 6em;
-    opacity: 0.6;
+    opacity: 1;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
