@@ -4,11 +4,6 @@
 }
 
 
-body {
-    margin-top: 5em;
-    
-    
-}
 
 hr {
     min-height: 0.4em;
@@ -25,12 +20,22 @@ li {
     font-size: 1.8em;
 }
 
+.navbar {
+    position: relative;
+    min-height: 50px;
+    /* margin-bottom: 20px; */
+    /* border: 1px solid transparent; */
+}
 .navbar-default {
-    
+     
     background-color: #ffff;
     border:0;
     font-family: Poppins;
     padding: 2rem;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    /* border: 1px solid transparent; */
 }
 .navbar-brand {
     font-size: 2em;
@@ -80,7 +85,47 @@ li {
     
 }
 
+.pig-brain {
+    
+    position: relative;
+    background-attachment: fixed;
+    min-height: 50em;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.pigbrainimage {
+    background: url('../img/brainquake.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    z-index: 1000;
+    
+}
+.pig-brain > div > h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 7rem;
+    text-decoration: none;
+    padding-bottom: 10rem;
+    padding-top: -10rem;
+}
 
+.pig-brain > div {
+
+
+    text-align: center;
+    padding-top: 5em;
+    padding-left: 5em;
+    padding-right: 2em;
+    clip-path: circle(50% at 50% 50%);
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    
+}
 
 .pig1{
    
@@ -110,9 +155,9 @@ pig1 li {
 }
 
 .pig1 div {
-    padding: 2en;
+    padding-top: 10em;
     margin: 0;
-    color : black;
+    color : brown;
     display: inline-block;
 
 }
@@ -138,7 +183,7 @@ pig1 li {
 }
 .pig3{
     background: url('../img/Mr_Xpressions.jpg');
-    min-height: 30em;
+    min-height: 1220px;
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -147,23 +192,66 @@ pig1 li {
     background-color: white;
     width: 100%;
     height: 100%;
+
+    display: grid;
+    grid-template-columns: 30% 60%;
     
+}
+
+.pig3 > div {
+
+
+    text-align: center;
+    padding-top: 16em;
+    padding-left: 5em;
+
+    margin: 0 auto;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    
+
 }
 
 .pig4{
     background: url('../img/tre_detective.jpg');
-    min-height: 30em;
+    min-height: 1200px;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
     background-size: contain;
     position: relative;
     background-attachment: fixed;
     background-color: white;
     width: 100%;
     height: 100%;
+
+    display: grid;
+    grid-template-columns: 70% 30%;
     
 }
 
+.pig4 > div {
+
+    text-align: center;
+    padding: 5em;
+    margin: 0 auto;
+    margin-top: 15em;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+}
+.pigspartan {
+    background: url('../img/Agoge_of_sparta.jpg');
+    min-height: 1200px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    position: relative;
+    background-attachment: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
 .piggame {
    
     min-height: 40em;
@@ -182,7 +270,8 @@ pig1 li {
     font-size: 23px;
     padding: 10rem;
     align-content: center;
-    
+    opacity: 1;
+
     
 }
 .section3 {
@@ -225,6 +314,7 @@ video {
 .video-container {
     height: 30em;
     overflow: hidden;
+    
 }
 
  .video-parallax {
@@ -270,7 +360,7 @@ video {
 .gamecontents > div {
     min-width: 1em;
     min-height: 6em;
-    opacity: 1;
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -278,7 +368,7 @@ video {
 }
 .fifa {
     background: url('../img/Jaquette_FIFA16_France_XboxOne.jpg');
-   
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -287,7 +377,7 @@ video {
 
 .cs {
     background: url('../img/download-1.jpg');
-   
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -295,7 +385,7 @@ video {
 }
 .nfs {
     background: url('../img/71rlumUCbaL._AC_SL1000_.jpg');
-   
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
