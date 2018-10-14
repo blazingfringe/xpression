@@ -182,23 +182,23 @@ pig1 li {
     
 }
 
-.pigtswords> div > h1 {
+.pigtswords {
     color: #f1f1f1;
     text-align: center;
-    position: absolute;
+    position: static;
     margin-top: -28rem;
     padding-bottom: 14rem;
     height: 30em;
 
 }
 
-.pigtswords h2{
+.pigtswords h1{
     font-size: 5em;
    
     
 }
 
-.pigtswords p2 {
+.pigtswords p {
     font-size: 1.5rem;
     
     
