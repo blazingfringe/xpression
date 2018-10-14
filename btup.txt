@@ -1,0 +1,31 @@
+position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	
+	.vidcontainer {
+position: absolute;
+top: 0;
+left 0;
+width: 100%
+
+}
+
+ .videopara{
+    -webkit-transition-position: fixed;
+    position: fixed;
+	
+	
+	
+	<div class="showcase-left">
+                  <img data-aos="fade-right" data-aos-offset="200" data-aos-delay="700" data-aos-duration="1400" src="./img/ship.png" alt="ship">
+                </div> 
+              
+                <div class="showcase-right"> 
+                  <h1 data-aos="fade-left" data-aos-offset="200" data-aos-delay="900" data-aos-duration="2000"><strong>X</strong>pressions 2018</h1>
+                  <br/>
+				   <section data-aos="fade-left" data-aos-offset="200" data-aos-delay="900" data-aos-duration="2000">Presented by <strong>XYZ Company</strong><br/></section>
+                  <br/> 
