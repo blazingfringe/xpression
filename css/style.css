@@ -171,16 +171,22 @@ pig1 li {
 }
 
 .vtitle {
-	position: absolute;
+	position: relative;
 	width: 100%;
+<<<<<<< HEAD
 	height: 100vh;
+=======
+	height: 30vh;
+>>>>>>> parent of 7a1efa0... no webkits
 	display: flex;
 	align-items: center; 
 	justify-content: center;
 	overflow: hidden;
 	}
 
-	
+	 .videopara{
+    -webkit-transition-position: fixed;
+    position: fixed;
 }
 
 .vidcontainer {
