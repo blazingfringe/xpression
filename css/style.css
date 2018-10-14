@@ -181,6 +181,10 @@ pig1 li {
 	z-index: -1;
 	}
 
+	 .videopara{
+    -webkit-transition-position: fixed;
+    position: fixed;
+}
 
 
 .pig2{
