@@ -344,6 +344,29 @@ video {
     
     
 }
+
+.pigtswords {
+    color: #f1f1f1;
+    text-align: center;
+    position: static;
+    margin-top: -28rem;
+    padding-bottom: 14rem;
+    height: 30em;
+
+}
+
+.pigtswords h1{
+    font-size: 5em;
+   
+    
+}
+
+.pigtswords p {
+    font-size: 1.5rem;
+    
+    
+    
+}
 .gamecontents {
 
     display: grid;
