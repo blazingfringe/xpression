@@ -178,7 +178,6 @@ pig1 li {
 	align-items: center; 
 	justify-content: center;
 	overflow: hidden;
-	z-index: -1;
 	}
 
 	 .videopara{
@@ -187,7 +186,7 @@ pig1 li {
 }
 
 .vidcontainer {
-position: relative;
+position: absolute;
 top: 0;
 left 0;
 width: 100%
