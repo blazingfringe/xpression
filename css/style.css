@@ -347,6 +347,31 @@ video {
 
 
 video {
+  max-width: 100%;
+  display: block;
+}
+.video-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto; /* Take the height of the video */
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  background-color: transparent;
+}
+.foreground {
+  position: absolute; /* Positioning it at the top of background block */
+  top: 0;
+  left: 0;
+  width: 100%;        /* Take full width of the parent block */
+  height: 100%;       /* Take full height of the parent block */
+  background-color: rgba(0,0,0,0.5); /* to create transparent background */
+}
+.foreground h1 {
+
+video {
     top: 50%;
     left: 50%;
     min-width: 100%;
