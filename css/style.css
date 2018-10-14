@@ -173,11 +173,12 @@ pig1 li {
 .vtitle {
 	position:absolute;
 	width: 100%;
-    height: 100vh;
+    height: 400px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
+	z-index: 100;
 	}
 
 	 
