@@ -183,12 +183,15 @@ pig1 li {
 }
 
 .pigtswords {
-    color: #f1f1f1;
-    text-align: center;
-    position: static;
-    margin-top: -28rem;
-    padding-bottom: 14rem;
-    height: 30em;
+	height: 30em;
+    background-color: #f1f1f1;
+	text-align: center;
+	position: static;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding: 5em;
+    color: brown;
 
 }
 
