@@ -178,6 +178,7 @@ pig1 li {
 	align-items: center; 
 	justify-content: center;
 	overflow: hidden;
+	z-index: 1;
 	}
 
 	
