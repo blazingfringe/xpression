@@ -173,28 +173,21 @@ pig1 li {
 .vtitle {
 	position: relative;
 	width: 100%;
-<<<<<<< HEAD
-	height: 100vh;
-=======
-	height: 30vh;
->>>>>>> parent of 7a1efa0... no webkits
+    height: 100vh;
 	display: flex;
 	align-items: center; 
 	justify-content: center;
 	overflow: hidden;
 	}
 
-	 .videopara{
-    -webkit-transition-position: fixed;
-    position: fixed;
-}
+	 
 
 .vidcontainer {
 position: absolute;
 top: 0;
 left 0;
 width: 100%
-
+}
 
 .pig2{
     background: url('../img/Tussle_of_words.jpg');
