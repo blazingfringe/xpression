@@ -88,13 +88,26 @@ li {
     
 }
 
+.vtitle {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	display: flex;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	justify-content: center;
+	overflow: hidden;
+	}
 
 .vtitle video{
-	.center {
-    margin-left: auto;
-    margin-right: auto;
-    display: block
-}
+	position:absolute;
+	top:0;
+	left:0;
+    height: 100vh;
+	overflow: hidden;
+	}	
 	 
 
 .vidcont{
