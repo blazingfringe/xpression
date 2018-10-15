@@ -89,6 +89,7 @@ li {
 }
 
 .vtitle {
+<<<<<<< HEAD
 	width: 100vw;
 	height: 100vh;
 	object-fit: cover;
@@ -99,6 +100,19 @@ li {
 	z-index: 1;
 	justify-content: center;
 	overflow: hidden;
+=======
+	top: 100%;
+    left: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 1920;
+    height: 1080;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+	
+>>>>>>> parent of a5d41f0... css_update
 	}
 
 .vtitle video{
