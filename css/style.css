@@ -89,17 +89,13 @@ li {
 }
 
 .vtitle {
-	top: 100%;
-    left: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    width: 1920;
-    height: 1080;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    transition: 1s opacity;
-	
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
 	}
 
 .vtitle video{
