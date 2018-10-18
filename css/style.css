@@ -44,12 +44,55 @@ li {
 }
  #showcase  {
    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+   align-items: center;
     background-color: white;
     width: 100%;
-    height: 100%;
+    height: 500px;
 }
+
+.video-wrap {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 3em;
+    
+}
+.video-wrap video {
+    min-width: 100%;
+    min-height: 100%;
+   
+
+}
+
+#showcase .wall {
+    height: 100%;
+    widows: 100%;
+   
+    top: 0;
+    left: 0;
+    background-color: #312424;
+    z-index: 4;
+    opacity: 0;
+    
+}
+.header-content {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10em;
+    z-index: 5;
+    padding: 10em;
+    margin-left: 5em;
+    margin-top: 25em;
+    
+}
+
+
 
 #showcase h1 {
     font-size: 5rem;
@@ -58,20 +101,18 @@ li {
     
 }
 
-#showcase img {
-    width: 80%;
-    margin : 0 auto;
-    display: block;
-    
-}
 
-#showcase .btn {
+.btn {
     overflow: hidden;
     color: #4e5356;
     font-size: auto;
     padding: 1rem 2rem;
     text-decoration: none;
    
+}
+.btn:hover {
+    color: #e0e9ee;
+    background-color: #4e5356
 }
 
 #showcase .showcase-right {
@@ -82,54 +123,13 @@ li {
     display: grid;
     grid-template-columns: 30%  30%;
     grid-gap: 1rem;
-	z-index:1;
+	z-index:10;
 	
 	
     
 }
 
-.vtitle {
-<<<<<<< HEAD
-	width: 100vw;
-	height: 100vh;
-	object-fit: cover;
-	display: flex;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	z-index: 1;
-	justify-content: center;
-	overflow: hidden;
-=======
-	top: 100%;
-    left: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    width: 1920;
-    height: 1080;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    transition: 1s opacity;
-	
->>>>>>> parent of a5d41f0... css_update
-	}
 
-.vtitle video{
-	position:absolute;
-	top:0;
-	left:0;
-    height: 100vh;
-	overflow: hidden;
-	}	
-	 
-
-.vidcontainer {
-max-width:100vh
-padding-left:1rem;
-padding-right:auto;
-text-align: center;
-}
 
 .pig-brain {
     
@@ -373,7 +373,7 @@ pig1 li {
 }
 
 
-video {
+#gaamevideo {
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -397,28 +397,7 @@ video {
 }
 
 
-video {
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    transition: 1s opacity;
-}
-.video-container2 {
-    height: 30em;
-    overflow: hidden;
-    
-}
 
- .video-parallax2 {
-    -webkit-transition-position: fixed;
-    position: fixed;
-}
 
 .pigheader {
     color: #f1f1f1;
@@ -492,3 +471,12 @@ video {
     position: relative;
 }
 
+@media(max-width:960px){
+
+    #showcase, .video-wrap {
+        padding : 3em;
+        
+
+    }
+
+}
